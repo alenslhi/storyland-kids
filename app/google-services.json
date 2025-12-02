@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "27586884158",
+    "project_id": "astrantia-books-28ad6",
+    "storage_bucket": "astrantia-books-28ad6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27586884158:android:16f2638d56ef01e1b7d76f",
+        "android_client_info": {
+          "package_name": "com.asrantiabooks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL-7Qm9qXX_gdavk5VvL5nIqwAg98ifgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

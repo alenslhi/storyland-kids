@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="80dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:id="@+id/layoutHeaderNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:visibility="visible">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgAdminProfile"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_account_circle_24"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#EEEEEE"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="12dp">
+
+                    <TextView
+                        android:id="@+id/tvAdminGreeting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Halo, Admin!"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kelola konten aplikasi"
+                        android:textSize="12sp"
+                        android:textColor="#757575"/>
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnAdminSearch"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_search"
+                    android:background="@drawable/bg_circle_white"
+                    android:elevation="2dp"
+                    android:padding="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutHeaderSearch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_button_rounded"
+                android:paddingHorizontal="12dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_search"
+                    app:tint="#757575"/>
+
+                <EditText
+                    android:id="@+id/etSearchField"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="Cari data buku..."
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="8dp"
+                    android:maxLines="1"
+                    android:inputType="text"/>
+
+                <ImageButton
+                    android:id="@+id/btnCloseSearch"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:tint="#757575"/>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vpAdminSlider"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutAdminIndicators"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingVertical="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buku Terbaru (Preview)"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="#000000"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAdminBooksPreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:clipToPadding="false"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

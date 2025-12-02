@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="4dp"
+    android:gravity="center_vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView
+            android:id="@+id/imgSearchCover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_book"/>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvSearchTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tvSearchCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Romance, Drama"
+            android:textSize="12sp"
+            android:textColor="#757575"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvSearchAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penulis"
+            android:textSize="12sp"
+            android:textColor="#757575"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>

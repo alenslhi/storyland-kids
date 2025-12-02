@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="darkGreen">#005D4D</color>
+    <color name="powderblue">#457B9D</color>
+    <color name="primary_accent">#69B5E4</color>
+
+    <color name="app_background">#F5F5F5</color>      <color name="surface_background">#FFFFFF</color>  <color name="input_field_bg">#F2F2F2</color>      <color name="text_primary">#212121</color>        <color name="text_secondary">#757575</color>      <color name="text_inverse">#FFFFFF</color>        <color name="text_hint">#9E9E9E</color>           <color name="text_link">#005D4D</color>           <color name="chip_bg_inactive">#FFFFFF</color>
+    <color name="chip_stroke">#E0E0E0</color>
+    <color name="chip_text_inactive">#616161</color>  <color name="chip_bg_active">#E0F2F1</color>
+    <color name="chip_text_active">#00695C</color>    <color name="dividerGray">#D2D2D2</color>
+    <color name="on_primary_accent">#000000</color>
+    <color name="lightGray">#F6F6F6</color>
+    <color name="imperiallred">#69B5E4</color>
+    <color name="celadonblue">#457B9D</color>
+    <color name="prussianblue">#1D3557</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F5F5F5</color>
+    <color name="text_label">#212121</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="primary_yellow">#FDB813</color>
+    <color name="secondary_yellow">#FFB300</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_text">#111827</color>
+    <color name="gray_text">#6B7280</color>
+    <color name="danger_red">#EF4444</color>
+    <color name="bg_search_gray">#F5F5F5</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="darkGreen">#003D33</color>
+    <color name="powderblue">#457B9D</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="app_background">#121212</color>       <color name="surface_background">#1E1E1E</color>   <color name="text_primary">#E0E0E0</color>         <color name="text_secondary">#A0A0A0</color>       <color name="text_inverse">#E0E0E0</color>
+    <color name="input_field_bg">#2C2C2C</color>       <color name="chip_bg_active">#004D40</color>
+    <color name="chip_text_active">#80CBC4</color>
+    <color name="chip_bg_inactive">#1E1E1E</color>
+    <color name="chip_stroke">#444444</color>
+    <color name="primary_yellow">#FDB813</color>
+    <color name="secondary_yellow">#FFB300</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_text">#111827</color>
+    <color name="gray_text">#6B7280</color>
+    <color name="danger_red">#EF4444</color>
+
+</resources>
